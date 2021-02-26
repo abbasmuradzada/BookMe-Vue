@@ -20,12 +20,24 @@
             </div>
             <nav>
                 <ul class="d-flex">
-                    <li class="active nav-home"><a>home</a></li>
+                    <router-link active-class="active" 
+                                    exact 
+                                    class="nav-home" 
+                                    to="/home" 
+                                    tag="li">
+                        <a>home</a>
+                    </router-link>
                     <li class="nav-about"><a>about me</a></li>
                     <li class="nav-services"><a>services</a></li>
                     <li class="nav-whyme"><a>why me</a></li>
                     <li class="nav-features"><a>features</a></li>
-                    <li class="nav-home"><a href="./blog.html">blog</a></li>
+                    <router-link active-class="active" 
+                                 class="nav-home" 
+                                 tag="li" 
+                                 exact
+                                 to="/blog">
+                        <a>blog</a>
+                    </router-link>
                     <li class="nav-contact"><a>contact</a></li>
                 </ul>
             </nav>
@@ -39,7 +51,13 @@ export default {
         return {
             compName: 'salam'
         }
+    },
+    methods: {
+        navigateTo(name){
+            this.$router.push({ name: name })
+        }
     }
+
 }
 </script>
 
