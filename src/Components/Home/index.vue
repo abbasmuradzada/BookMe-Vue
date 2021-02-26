@@ -1,5 +1,6 @@
 <template>
     <div>
+        <About/>
         <Services/>
         <Facts/>
         <AboutMe/>
@@ -8,12 +9,14 @@
 </template>
 
 <script>
+import About from './About';
 import Services from './Services';
 import Facts from './Facts';
 import Clients from './Clients';
 import AboutMe from './AboutMe';
 export default {
     components:{
+        About,
         Services,
         Facts,
         Clients,
