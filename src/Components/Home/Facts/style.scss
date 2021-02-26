@@ -1,0 +1,12 @@
+@import '../../../assets/style/variables'; 
+@import '../../../assets/style/common'; 
+
+#facts{
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 150px 0;
+    #fact-list{
+        width: 100%;
+        margin-top: 120px;
+    }
+}
