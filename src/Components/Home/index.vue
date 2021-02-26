@@ -1,9 +1,18 @@
 <template>
-    <div class="container">home</div>
+    <div>
+        <AboutMe/>
+        <Clients/>
+    </div>    
 </template>
 
 <script>
+import Clients from './Clients';
+import AboutMe from './AboutMe';
 export default {
+    components:{
+        Clients,
+        AboutMe
+    },
     data: function () {
         return {
             compName: 'salam'
