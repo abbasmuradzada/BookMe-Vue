@@ -2,6 +2,7 @@
     <div>
         <About/>
         <Services/>
+        <News/>
         <Facts/>
         <AboutMe/>
         <Clients/>
@@ -11,6 +12,7 @@
 <script>
 import About from './About';
 import Services from './Services';
+import News from './News';
 import Facts from './Facts';
 import Clients from './Clients';
 import AboutMe from './AboutMe';
@@ -18,6 +20,7 @@ export default {
     components:{
         About,
         Services,
+        News,
         Facts,
         Clients,
         AboutMe
