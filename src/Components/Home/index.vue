@@ -7,6 +7,7 @@
         <Facts/>
         <AboutMe/>
         <Clients/>
+        <Book/>
     </div>    
 </template>
 
@@ -18,6 +19,7 @@ import News from './News';
 import Facts from './Facts';
 import Clients from './Clients';
 import AboutMe from './AboutMe';
+import Book from './Book';
 export default {
     components:{
         Slider,
@@ -26,7 +28,8 @@ export default {
         News,
         Facts,
         Clients,
-        AboutMe
+        AboutMe,
+        Book
     },
     data: function () {
         return {
