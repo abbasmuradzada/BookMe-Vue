@@ -2,14 +2,11 @@
   <div id="news">
         <div class="container d-flex flex-wrap justify-content-between">
             <div class="news-main-section">
-                <span class="sec-title">Whats going on</span>
-                <h2 class="sec-heading">LATEST NEWS &
-                    UPDATES
-                </h2>
-                <p class="sec-desc">Lorem ipsum dolor sit amet, consectetur adipiscing 
+              <secHeader title='Whats going on' align='left' head='LATEST NEWS & UPDATES'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Pellent esque dignissim eros a sapien tempus, 
                     ut eleifend neque convallis.
-                </p>
+              </secHeader>
                 <a class="more-news" href="">Read more</a>
             </div>
             <div class="news-card">
