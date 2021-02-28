@@ -1,0 +1,18 @@
+@import '../../../../assets/style/variables'; 
+@import '../../../../assets/style/common'; 
+
+.archives{
+    >select{
+        outline: none;
+        width: 135px;
+        height: 34px;
+        border: 1px solid #9f8447;
+        color: $main-black;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+

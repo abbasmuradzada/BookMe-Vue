@@ -1,0 +1,9 @@
+@import '../../../assets/style/variables'; 
+@import '../../../assets/style/common'; 
+
+.blog-divider{
+    height: 1px;
+    width: 100%;
+    background-color: rgba($color: #393333, $alpha: .2);
+    margin: 60px 0;
+}

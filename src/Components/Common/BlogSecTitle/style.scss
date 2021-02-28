@@ -1,0 +1,11 @@
+@import '../../../assets/style/variables'; 
+@import '../../../assets/style/common'; 
+
+.blog-sec-title{
+    color: $main-black;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
